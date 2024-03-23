@@ -1,6 +1,6 @@
 <?php
 include_once "base_datos.php";
-define ("PASS_DEFECTO", "GimHunter123");
+define ("PASS_DEFECTO", "InventarioFau123");
 
 function registrarUsuario($usuario){
     $usuario->password = password_hash(PASS_DEFECTO, PASSWORD_DEFAULT);
